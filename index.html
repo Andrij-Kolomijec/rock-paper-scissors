@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="js.js"></script> <!-- external scripting -->
+    <script src="js.js" defer></script> <!-- external scripting -->
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Piedra tijeras papel</title>
 </head>
 <body>
-    <script>
-        console.log("Hello World");
-    </script>
-    <div >
-
-    </div>    
+    <span id="buttons">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </span>
+    <div id="result">
+        <div id="outcome"></div>
+        <div id="score"></div>
+    </div>
 </body>
 </html>
