@@ -1,2 +1,4 @@
 # rock-paper-scissors
-rock-paper-scissors TOP
+[The Odin Project](https://www.theodinproject.com/)
+
+topics: javascript fundamentals, console
